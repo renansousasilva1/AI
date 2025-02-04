@@ -1,18 +1,20 @@
-🚀 Automação de Criação de Provas com IA e Google Apps Script
+## 🚀 Automação de Criação de Provas com IA e Google Apps Script ##
+
 Este projeto automatiza a geração de provas com IA Generativa (ChatGPT - OpenAI API) utilizando Google Apps Script e Google Sheets. Ele reduz drasticamente o tempo de produção de provas, tornando o processo mais eficiente e escalável.
 
-📊 Impacto do Projeto
+## 📊 Impacto do Projeto ##
 ✅ Redução de tempo: O processo de criação de provas caiu de 15 horas para apenas 1 hora.
 ✅ Aumento de produtividade: Automatiza a geração de questões e gabaritos, permitindo que os usuários foquem na revisão e otimização.
 ✅ Integração com Google Workspace: O conteúdo gerado é salvo automaticamente no Google Docs e Google Drive.
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas ##
 Google Sheets → Armazena os temas das provas.
 Google Apps Script → Automação do fluxo de trabalho e integração com a OpenAI.
 API da OpenAI (ChatGPT) → Geração automática das provas.
 Google Docs → Salvamento das provas criadas.
 Google Drive → Armazenamento na nuvem.
-⚙️ Como Funciona?
+
+## ⚙️ Como Funciona? ##
 1️⃣ Lista de temas: O usuário insere os temas no Google Sheets.
 2️⃣ Automação via Apps Script: Cada tema é processado e enviado como variável para a API da OpenAI.
 3️⃣ Geração de prova: A IA cria a prova com base no tema e gera um gabarito correspondente.
