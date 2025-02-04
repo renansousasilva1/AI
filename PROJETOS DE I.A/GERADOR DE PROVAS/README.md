@@ -21,19 +21,23 @@ Google Drive → Armazenamento na nuvem.
 4️⃣ Armazenamento automático: O conteúdo gerado é copiado para um Google Docs e salvo no Google Drive.
 5️⃣ Revisão e ajustes: As provas podem ser revisadas manualmente para ajustes finais.
 
-🔧 Configuração e Uso
+## 🔧 Configuração e Uso ##
+
 1️⃣ Passo 1: Configurar a Planilha no Google Sheets
 Crie uma planilha no Google Sheets e insira os temas na Coluna A.
+
 2️⃣ Passo 2: Configurar o Google Apps Script
 No Google Sheets, vá até Extensões > Apps Script e cole o código disponível neste repositório.
+
 3️⃣ Passo 3: Configurar a API da OpenAI
 Crie uma conta na OpenAI e gere uma chave de API em https://platform.openai.com/signup.
 No código do Apps Script, substitua "SUA_CHAVE_OPENAI_AQUI" pela chave gerada.
+
 4️⃣ Passo 4: Executar a Automação
 No Apps Script, execute o código e aguarde a geração automática das provas.
 
 
-🖥️ Exemplo de Código (Google Apps Script)
+## 🖥️ Exemplo de Código (Google Apps Script) ##
 
 ```javascript
 function gerarProvas() {
