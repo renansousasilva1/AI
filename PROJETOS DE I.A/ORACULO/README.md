@@ -92,9 +92,9 @@ Treinamento de modelo personalizado
 
 - Note que, o objetivo desta ferramenta é que ela rode apenas em um servidor local. Cabe salientar que, embora a aplicação do óraculo esteja em um servidor "offline"/local, o seu projeto usa os modelos da OPENAI, que estão disponibilizados através de requisições via API. Sendo assim, o projeto do Oráculo roda localmente e não disponibiliza as vulnerabilidades de segurança do projeto na internet, seus dados(docs e planilhas) ficam no seu computador local e a API só tem acesso aos documentos através das suas requisições, onde você passa um prompt para a API e junto do prompt você passa duas propriedades:
 
-0 - Instruções básicas sobre o que o modelo de inteligência artificial deve fazer (Atuar como assistente);
-1 - Pergunta (O que você digitou no INPUT do chat);
-2 - Context (Documentos);
+- 0 - Instruções básicas sobre o que o modelo de inteligência artificial deve fazer (Atuar como assistente);
+- 1 - Pergunta (O que você digitou no INPUT do chat);
+- 2 - Context (Documentos);
 
 
 Através desta requisição, o prompt vai chegar até a API levando a sua Pergunta e o Contexto, logo, a API vai retornar um OUTPUT com a resposta que o modelo de inteligência artifical da OPEN AI julgou ser o mais coerente de acordo com o prompt recebido (PROMPT = INSTRUÇÃO + PERGUNTA + CONTEXTO);
