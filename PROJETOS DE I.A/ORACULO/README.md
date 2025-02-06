@@ -99,5 +99,6 @@ Treinamento de modelo personalizado
 
 Através desta requisição, o prompt vai chegar até a API levando a sua Pergunta e o Contexto, logo, a API vai retornar um OUTPUT com a resposta que o modelo de inteligência artifical da OPEN AI julgou ser o mais coerente de acordo com o prompt recebido (PROMPT = INSTRUÇÃO + PERGUNTA + CONTEXTO);
 
+![image](https://github.com/user-attachments/assets/32617aa4-60ac-4cb3-98f5-3e2615e36e2c)
 
 
