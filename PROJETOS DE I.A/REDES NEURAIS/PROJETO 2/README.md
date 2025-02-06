@@ -1,4 +1,6 @@
-![image](https://github.com/user-attachments/assets/4a840e7d-0c33-4460-afbc-1a01e77f456b)## Projeto 2: Classificação com Rede Neural para Dados Circulares
+## Projeto 2: Classificação com Rede Neural para Dados Circulares
+![image](https://github.com/user-attachments/assets/4a840e7d-0c33-4460-afbc-1a01e77f456b)
+
 
 Este repositório contém a implementação do **Projeto 2**, que usa o **TensorFlow Playground** para resolver um problema de **classificação não linear**. O objetivo é classificar pontos distribuídos em uma forma **circular**, onde a classe azul está dentro de um círculo e a classe laranja está fora dele.
 
