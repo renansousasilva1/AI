@@ -66,3 +66,6 @@ A seguir, estão os parâmetros de configuração definidos para a rede:
 
 Após o treinamento, o modelo conseguiu separar com sucesso os dois grupos de dados. A curva de perda do treinamento e do teste se estabilizou em valores baixos, mostrando que o modelo aprendeu a fazer a classificação.
 
+![image](https://github.com/user-attachments/assets/31e165aa-3e99-42e1-bf7d-889407bee173)
+
+
