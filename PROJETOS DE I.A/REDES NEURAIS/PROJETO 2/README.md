@@ -84,4 +84,7 @@ O **Projeto 2** ilustra a importância de usar redes neurais com **múltiplos ne
 
 Este experimento demonstra como redes neurais podem ser ajustadas e configuradas para resolver problemas que não podem ser resolvidos com simples operações lineares.
 
+![image](https://github.com/user-attachments/assets/0ec33938-e314-4a34-954e-820f3d7b19c8)
+
+
 
