@@ -22,18 +22,21 @@ A arquitetura da rede neural foi ajustada da seguinte maneira:
 - **Camada Oculta**: Iniciamos com uma camada oculta de 8 neurônios, mas foi necessário adicionar mais camadas ocultas para melhorar o desempenho.
 - **Camadas Ocultas**: O modelo foi aprimorado com até **6 camadas ocultas**, com um máximo de **8 neurônios por camada**.
 
+
 A meta foi atingir uma **perda de teste menor ou igual a 0,05** e uma **perda de treinamento menor ou igual a 0,02**.
 
 ## Resultados
 
 Após a configuração da rede neural, o modelo alcançou os seguintes resultados:
-- **Perda de Treinamento**: 0.0008
-- **Perda de Teste**: 0.034
+- **Perda de Treinamento**: 0.007
+- **Perda de Teste**: 0.006
+- ![image](https://github.com/user-attachments/assets/66e8f588-608a-44b3-ae1e-fba03246f3a1)
 
-A rede foi capaz de separar adequadamente os pontos laranja e azul, como mostrado nas capturas de tela abaixo.
 
-![Resultado 1](link_para_imagem1.png)
-![Resultado 2](link_para_imagem2.png)
+A rede foi capaz de separar adequadamente os pontos laranja e azul, como mostrado na captura de tela abaixo.
+
+![image](https://github.com/user-attachments/assets/865d9bb5-f53b-4750-a397-6dab8e59ece8)
+
 
 ## Dicas e Aprendizados
 
