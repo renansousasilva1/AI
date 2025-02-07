@@ -54,6 +54,7 @@ Através deste projeto, foi possível aprender sobre como construir redes neurai
 ![image](https://github.com/user-attachments/assets/c0957d31-1a26-4e90-966f-857abe058529)
 
 -- **Output 1**:
+![image](https://github.com/user-attachments/assets/6151c4cd-8a5b-4515-9a87-aaddf86d2ffd)
 
 
 ## Conclusão 2
