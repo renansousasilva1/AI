@@ -53,4 +53,26 @@ Aqui estão algumas dicas que podem ajudar a melhorar sua experiência ao usar o
 Através deste projeto, foi possível aprender sobre como construir redes neurais eficazes, entender a importância da arquitetura e como as diferentes configurações podem impactar diretamente os resultados.
 ![image](https://github.com/user-attachments/assets/c0957d31-1a26-4e90-966f-857abe058529)
 
+-- **Output 1**:
+
+
+## Conclusão 2
+
+Através de alguns ajustes no projeto foi possível observer como construir redes neurais não é tão simples quanto parece, deixando claro, mais uma vez que, entender a importância da arquitetura e como as diferentes configurações podem impactar diretamente nos resultados.
+
+
+**Arquitetura utilizada**:
+![image](https://github.com/user-attachments/assets/9a0cef00-7377-431c-92e9-2e51a05f251e)
+
+
+
+**Resultado**:
+![image](https://github.com/user-attachments/assets/aeffc1bb-16a8-48ef-aad1-31cf99c8ad38)
+
+
+
+-- **OUTPUT 2**:
+![image](https://github.com/user-attachments/assets/b2f26f6a-f65e-4da9-bf08-b2e31a254337)
+
+
 
