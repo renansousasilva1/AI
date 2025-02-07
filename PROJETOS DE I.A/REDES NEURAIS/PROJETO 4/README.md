@@ -73,7 +73,55 @@ Através de alguns ajustes no projeto foi possível observer como construir rede
 
 
 -- **OUTPUT 2**:
+
 ![image](https://github.com/user-attachments/assets/b2f26f6a-f65e-4da9-bf08-b2e31a254337)
 
+## OBSERVAÇÕES
+
+Mesmo que você tente reproduzir a rede neural que eu criei, usando as mesmas configurações... Você vai ver que ainda assim, não vai ficar igual a minha rede neural. Isso acontece pois cada rede neural comece com pesos diferentes e outros pontos importantes. O comportamento de redes neurais, como você observou no TensorFlow Playground, pode gerar resultados diferentes mesmo quando a configuração parece ser a mesma. Isso acontece por causa de vários fatores estocásticos e variabilidade nos processos de treinamento. Aqui estão as principais razões pelas quais isso ocorre:
+
+## 1. Inicialização Aleatória dos Pesos
+Quando você cria uma rede neural, os pesos das conexões entre os neurônios são inicializados aleatoriamente antes do início do treinamento. Essa inicialização aleatória é um dos principais fatores que causam a variabilidade nos resultados entre execuções. Mesmo com a mesma arquitetura e configuração, a rede começará com diferentes valores de pesos, o que pode levar a diferentes trajetórias de treinamento e, portanto, resultados diferentes.
+
+Impacto: A rede pode aprender caminhos diferentes para minimizar a função de perda devido à inicialização aleatória dos pesos.
+Solução: Para garantir consistência nos resultados, pode-se usar técnicas de inicialização controlada (como inicialização de Xavier ou He), ou definir uma semente aleatória (random seed), o que ajuda a garantir que os pesos iniciais sejam sempre os mesmos.
+
+
+## 2. Processo Estocástico de Otimização
+A maioria dos algoritmos de otimização usados em redes neurais (como o Adam, SGD, etc.) tem uma natureza estocástica. Isso significa que durante o treinamento, as atualizações dos pesos não são determinísticas e podem ser influenciadas por mini-batches aleatórios ou por variações nas iterações de treinamento.
+
+Impacto: Mesmo com os mesmos dados de entrada e arquitetura de rede, a ordem em que os dados são apresentados para a rede pode influenciar o treinamento, resultando em um caminho de aprendizado diferente.
+Solução: Algumas plataformas permitem configurar a semente aleatória para o processo de treinamento, garantindo que a ordem dos dados e as atualizações dos pesos sejam as mesmas em diferentes execuções.
+
+## 3. Tamanho do Mini-Batch
+Alguns algoritmos de otimização, como o Stochastic Gradient Descent (SGD), dividem o conjunto de dados em pequenos lotes (mini-batches). A maneira como esses mini-batches são formados pode ser diferente entre execuções, o que pode afetar o treinamento.
+
+Impacto: A variabilidade no tamanho dos mini-batches e na ordem dos dados pode levar a diferentes resultados.
+Solução: Controlar a semente aleatória ajuda a garantir que os mini-batches sejam formados de maneira consistente.
+
+
+## 4. Funções de Ativação e Gradientes
+Algumas funções de ativação, como sigmoid e tanh, podem ser mais suscetíveis ao problema de gradientes desaparecendo ou explodindo, dependendo da inicialização dos pesos. Isso pode levar a convergências mais lentas ou a resultados que não são tão precisos em algumas execuções.
+
+Impacto: Pequenas variações na inicialização dos pesos ou nas atualizações do gradiente podem fazer com que o treinamento alcance diferentes mínimos locais ou se desvie para soluções subótimas.
+Solução: Usar funções de ativação como ReLU pode ajudar a mitigar esses problemas, pois elas são menos propensas ao desaparecimento de gradientes.
+
+## 5. Diferentes Caminhos de Convergência
+As redes neurais podem ter múltiplos mínimos locais na função de perda, o que significa que podem convergir para soluções diferentes dependendo de como o treinamento evolui. Mesmo com a mesma configuração, a rede pode "decidir" por diferentes caminhos durante o treinamento, chegando a soluções diferentes.
+
+Impacto: O algoritmo de otimização pode encontrar diferentes mínimos locais em diferentes execuções.
+Solução: É possível tentar configurar a semente aleatória para garantir que o treinamento comece sempre no mesmo ponto e siga o mesmo caminho de otimização.
+
+## 6. Regularização
+Se você estiver usando regularização (como Dropout ou L2 Regularization), esses métodos podem introduzir um comportamento estocástico adicional, pois Dropout, por exemplo, desativa aleatoriamente neurônios durante o treinamento.
+
+Impacto: Isso introduz aleatoriedade na rede, e o treinamento pode ser afetado de maneiras diferentes entre execuções.
+Solução: Desmarcar o Dropout ou garantir que a semente aleatória esteja configurada pode ajudar a obter resultados mais consistentes.
+
+## 7. Ambiente de Execução
+A execução da rede neural pode depender de vários fatores do ambiente de execução, como a versão do TensorFlow Playground, a máquina em que está sendo executado (local ou em nuvem) e até mesmo pequenas variações no hardware que podem afetar os cálculos de precisão flutuante.
+
+Impacto: Diferentes execuções podem ser feitas em ambientes levemente diferentes, resultando em pequenas variações nos resultados.
+Solução: Para garantir a consistência, é importante tentar rodar em um ambiente controlado ou usar o TensorFlow local com seeds e configurações específicas.
 
 
