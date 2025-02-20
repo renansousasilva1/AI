@@ -42,6 +42,10 @@ Abaixo estão algumas capturas de tela do projeto em funcionamento:
 - Personalização das recomendações com base em gêneros e preferências do usuário.
 - Implementação de um histórico de consultas.
 
+
+## OBSERVAÇÕES IMPORTANTES:
+
+- É importante observar que em alguns casos, os nomes dos livros e/ou autor podem não ser o mesmo. Os modelos de intenligencia artificial disponíveis e usados neste projeto foram modelos gratuitos, sendo assim, é possível que ele não tenha 100% de precisão em nomes de autores e nomes de livros, mas em uma rápida pesquisa você consegue encontrar a recomendação e consegue observar que, embora possa existir algum erro no nome e/ou autor, a recomendação faz sentido e no fim, um mero erro de ortografia não afeta o resultado final que tem coerência e sentido. E melhor que isso tudo, é um projeto simples e pode ser implementado de forma gratuita em Totens de autoatendimento em bibliotecas e/ou livrarias. O projeto foi feito em menos de 2 horas e diante disso ainda precisa de muitas melhorias para um uso real em bibliotecas e livrarias, mas com alguns ajustes seria possível implementar o uso prático, inclusive com a possibilidade de personalizar recomendações somente com que há disponível dentro da biblioteca e/ou unidade da livravia, gerando somente recomendações que estão disponíveis para o leitor naquele momento.
 ---
 💡 **Desenvolvido por [Renan]**
 
