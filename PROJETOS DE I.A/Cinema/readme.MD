@@ -17,7 +17,9 @@ Abaixo estão algumas capturas de tela do projeto em funcionamento:
 - Exibe uma mensagem de boas-vindas.
 - Apresenta a interface inicial do chatbot.
 
-<img src="https://via.placeholder.com/800x400?text=Tela+Inicial" alt="Tela Inicial">
+
+
+
 
 ### 📍 Escolha de Filmes
 - Permite inserir o número de participantes.
@@ -44,5 +46,5 @@ Abaixo estão algumas capturas de tela do projeto em funcionamento:
 - Interface aprimorada para uma melhor experiência do usuário
 
 ---
-💡 **Desenvolvido por [Seu Nome]**
+💡 **Desenvolvido por [Renan]**
 
