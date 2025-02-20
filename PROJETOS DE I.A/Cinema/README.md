@@ -16,28 +16,34 @@ Abaixo estão algumas capturas de tela do projeto em funcionamento:
 ### 📍 Tela Inicial
 - Exibe uma mensagem de boas-vindas.
 - Apresenta a interface inicial do chatbot.
-
-
-
+![image](https://github.com/user-attachments/assets/fc3679fa-5d49-4b3c-a49e-403cfdd13eb2)
 
 
 ### 📍 Escolha de Filmes
 - Permite inserir o número de participantes.
 - Coleta os nomes e as sugestões de filmes de cada usuário.
 
-<img src="https://via.placeholder.com/800x400?text=Escolha+de+Filmes" alt="Escolha de Filmes">
+![image](https://github.com/user-attachments/assets/b28eda26-bfb7-4a1f-98fd-f118b42e2e81)
+
 
 ### 📍 Confirmação de Sugestões
 - Exibe a lista de filmes escolhidos por cada participante.
 - Permite revisar antes da geração das recomendações.
 
-<img src="https://via.placeholder.com/800x400?text=Confirma%C3%A7%C3%A3o+de+Sugest%C3%B5es" alt="Confirmação de Sugestões">
+![image](https://github.com/user-attachments/assets/8f39ee22-f8d1-4621-8cca-cd7813766845)
+
 
 ### 📍 Recomendação Final
 - IA processa as sugestões e retorna uma lista otimizada de filmes.
 - Exibe apenas opções disponíveis na plataforma de streaming escolhida.
 
-<img src="https://via.placeholder.com/800x400?text=Recomenda%C3%A7%C3%A3o+Final" alt="Recomendação Final">
+![image](https://github.com/user-attachments/assets/e9fa69df-ed01-41b9-9136-0ce239c02310)
+![image](https://github.com/user-attachments/assets/924c88e0-23d0-455a-84ef-451f18f5414a)
+![image](https://github.com/user-attachments/assets/259c10b5-bd87-4c30-8d24-29ac5882a678)
+
+
+
+
 
 ## 📌 Status do Projeto
 ✅ **Finalizado**, mas pode ser expandido com novas funcionalidades como:
